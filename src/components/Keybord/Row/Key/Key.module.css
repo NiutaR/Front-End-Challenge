@@ -46,11 +46,9 @@
 
 
 .key--pressed {
-    /* Стили для нажатой клавиши */
     background-color: blue;
 }
 
 .key--released {
-    /* Стили для отпущенной клавиши */
     background-color: green;
 }
