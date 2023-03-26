@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import classNames from 'classnames';
 import keyStyles from './Key.module.css';
 
@@ -7,21 +7,27 @@ const Key = ({ label, value, className }) => {
 
   const handleMouseDown = () => {
     setKeyState('pressed');
-    const timeoutId = setTimeout(() => {
+    setTimeout(() => {
       setKeyState('released');
-      setTimeout(() => {
-        setKeyState('default');
-      }, 100);
     }, 3000);
-    return () => clearTimeout(timeoutId);
   };
 
-  /*const handleClick = () => {
+  const handleClick = () => {
     setKeyState('clicked');
     setTimeout(() => {
       setKeyState('default');
     }, 100);
-  };*/
+  };
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setKeyState('default');
+    }, 60000);
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, []);
 
   const keyClassNames = classNames(keyStyles.key, {
     [keyStyles['key--double']]: Array.isArray(value),
@@ -37,9 +43,12 @@ const Key = ({ label, value, className }) => {
   });
 
   return (
-    <button className={keyClassNames}
+    <button
+      className={keyClassNames}
       onMouseDown={handleMouseDown}
-      tabIndex={0}>
+      onClick={handleClick}
+      tabIndex={0}
+    >
       {Array.isArray(value) ? value.join('\n') : value}
       <div className={keyStyles.label}>{label}</div>
     </button>
