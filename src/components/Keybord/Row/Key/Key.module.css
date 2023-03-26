@@ -6,19 +6,23 @@
     margin-right: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
+    background-color: #c7c5c5;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    cursor: pointer;
+    user-select: none;
 }
+
 .key.key--caps {
     width: 10rem;
 }
+
 .key.key--lock {
     width: 6.3rem;
 }
+
 .key.key--enter {
     width: 12rem;
 }
@@ -27,12 +31,26 @@
 .key.key--ctrl {
     width: 6.5rem;
 }
+
 .key.key--space {
     width: 25rem;
 }
+
 .key.key--tab {
     width: 13.5rem;
 }
+
 .key.key--shift {
     width: 11rem;
+}
+
+
+.key--pressed {
+    /* Стили для нажатой клавиши */
+    background-color: blue;
+}
+
+.key--released {
+    /* Стили для отпущенной клавиши */
+    background-color: green;
 }
