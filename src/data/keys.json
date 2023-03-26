@@ -1,0 +1,442 @@
+[
+    [{
+            "label": "Esc",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "F1",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "F2",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "F3",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "F4",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "F5",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "F6",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "F7",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "F8",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "F9",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "F10",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "F11",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "F12",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "PrtScr",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "Insert",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "Delete",
+            "isPrint": false,
+            "isDelete": true,
+            "className": "delete-btn"
+        }
+
+
+    ],
+    [{
+            "label": "~",
+            "value": "`",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "!",
+            "value": "1",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "@",
+            "value": "2",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "#",
+            "value": "3",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "$",
+            "value": "4",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "%",
+            "value": "5",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "^",
+            "value": "6",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "&",
+            "value": "7",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "*",
+            "value": "8",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "(",
+            "value": "9",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": ")",
+            "value": "0",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "-",
+            "value": "_",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "+",
+            "value": "=",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "Backspace",
+            "isPrint": false,
+            "isDelete": true
+
+        },
+        {
+            "label": "NumLock",
+            "isPrint": true,
+            "isDelete": false
+        }
+    ],
+    [{
+            "label": "Tab",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "Q",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "W",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "E",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "R",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "T",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "Y",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "U",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "I",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "O",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "P",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "{",
+            "value": "}",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "[",
+            "value": "]",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "|",
+            "isPrint": true,
+            "isDelete": false
+        }
+    ],
+    [{
+            "label": "CapsLock",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "A",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "S",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "D",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "F",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "G",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "H",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "J",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "K",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "L",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": ":",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "'",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "Enter",
+            "isPrint": true,
+            "isDelete": false
+        }
+
+    ],
+    [{
+            "label": "Shift",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "Z",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "X",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "C",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "V",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "B",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "N",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "M",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "<",
+            "value": ",",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": ">",
+            "value": ".",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "?",
+            "value": "/",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "↑",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "Shift",
+            "isPrint": true,
+            "isDelete": false
+        }
+
+    ],
+    [{
+            "label": "Ctrl",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "Fn",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "Win",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "Alt",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "Space",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "Alt",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "Ctrl",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "←",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "↓",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "→",
+            "isPrint": true,
+            "isDelete": false
+        },
+        {
+            "label": "Fn",
+            "isPrint": true,
+            "isDelete": false
+        }
+    ]
+]

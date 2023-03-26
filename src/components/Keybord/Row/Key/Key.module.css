@@ -1,0 +1,38 @@
+.key {
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.key.key--caps {
+    width: 10rem;
+}
+.key.key--lock {
+    width: 6.3rem;
+}
+.key.key--enter {
+    width: 12rem;
+}
+
+.key.key--backspace,
+.key.key--ctrl {
+    width: 6.5rem;
+}
+.key.key--space {
+    width: 25rem;
+}
+.key.key--tab {
+    width: 13.5rem;
+}
+.key.key--shift {
+    width: 11rem;
+}
